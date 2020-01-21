@@ -114,6 +114,7 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>src/test/resources/testrunner/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					 <executable>C:\Program Files\Java\jdk1.8.0_211\bin\javac</executable>
 				</configuration>
 			</plugin>
 
