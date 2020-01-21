@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jan 21 21:26:37 IST 2020</td>
+<td>Started on:</td><td>Tue Jan 21 22:13:14 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>115 seconds (115123 ms)</td>
+<tr><td>Total time:</td><td>71 seconds (71258 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -78,9 +78,11 @@ function toggleAllBoxes() {
 <td title='com.qa.hubspot.tests.HomePageTest.verifyLoggedInUserAccountTest()'><b>verifyLoggedInUserAccountTest</b><br>Test class: com.qa.hubspot.tests.HomePageTest</td>
 <td><div><pre>java.lang.AssertionError: did not expect to find [true] but found [false]
 	at com.qa.hubspot.tests.HomePageTest.verifyLoggedInUserAccountTest(HomePageTest.java:57)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace775741122", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace775741122'><pre>java.lang.AssertionError: did not expect to find [true] but found [false]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1217467887", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1217467887'><pre>java.lang.AssertionError: did not expect to find [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:97)
 	at org.testng.Assert.failNotEquals(Assert.java:969)
 	at org.testng.Assert.assertTrue(Assert.java:43)
@@ -98,22 +100,9 @@ function toggleAllBoxes() {
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 </pre></div></td>
 <td>0</td>
 <td>com.qa.hubspot.tests.HomePageTest@4c371370</td></tr>
@@ -122,9 +111,11 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.NullPointerException
 	at com.qa.hubspot.base.BasePage.getScreenshot(BasePage.java:100)
 	at com.qa.hubspot.listeners.ExtentReportListener.onTestFailure(ExtentReportListener.java:102)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace525527919", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace525527919'><pre>java.lang.NullPointerException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2087258327", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2087258327'><pre>java.lang.NullPointerException
 	at com.qa.hubspot.base.BasePage.getScreenshot(BasePage.java:100)
 	at com.qa.hubspot.listeners.ExtentReportListener.onTestFailure(ExtentReportListener.java:102)
 	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:66)
@@ -136,24 +127,11 @@ function toggleAllBoxes() {
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 </pre></div></td>
-<td>24</td>
+<td>38</td>
 <td>com.qa.hubspot.tests.HomePageTest@4c371370</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -166,22 +144,22 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.qa.hubspot.tests.LoginTest.loginTest()'><b>loginTest</b><br>Test class: com.qa.hubspot.tests.LoginTest</td>
 <td></td>
-<td>7</td>
+<td>15</td>
 <td>com.qa.hubspot.tests.LoginTest@799f10e1</td></tr>
 <tr>
 <td title='com.qa.hubspot.tests.HomePageTest.verifyHomePageHeaderTest()'><b>verifyHomePageHeaderTest</b><br>Test class: com.qa.hubspot.tests.HomePageTest</td>
 <td></td>
-<td>0</td>
+<td>3</td>
 <td>com.qa.hubspot.tests.HomePageTest@4c371370</td></tr>
 <tr>
 <td title='com.qa.hubspot.tests.HomePageTest.verifyHomePageTitleTest()'><b>verifyHomePageTitleTest</b><br>Test class: com.qa.hubspot.tests.HomePageTest</td>
 <td></td>
-<td>0</td>
+<td>5</td>
 <td>com.qa.hubspot.tests.HomePageTest@4c371370</td></tr>
 <tr>
 <td title='com.qa.hubspot.tests.LoginTest.verifyloginPageTitleTest()'><b>verifyloginPageTitleTest</b><br>Test class: com.qa.hubspot.tests.LoginTest</td>
 <td></td>
-<td>6</td>
+<td>9</td>
 <td>com.qa.hubspot.tests.LoginTest@799f10e1</td></tr>
 </table><p>
 </body>

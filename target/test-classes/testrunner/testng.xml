@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Hub Spot Test Suite" verbose="1">
+<suite name="Hub Spot Test Suite" verbose="1" parallel="methods" thread-count="3">
 
 <listeners>
 	<listener class-name="com.qa.hubspot.listeners.ExtentReportListener" />		
 </listeners>
-
+	
 	<test name="hub spot Test">
 		<classes>
 			<class name="com.qa.hubspot.tests.LoginTest" />
